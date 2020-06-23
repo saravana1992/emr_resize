@@ -1,6 +1,7 @@
 import boto3
 
 cluster_id = "cluster-id"
+instance_info = {}
 emr_client = boto3.client('emr')
 
 # Listing the Instance Groups of the above cluster Id
